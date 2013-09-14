@@ -19,6 +19,19 @@
         { "name" : "Jeremy Satterfield",
           "github" : "jsatt"
         }
+    },
+    { "type" : "Feature",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : ["-95.95639","36.1539"]
+      },
+      "properties" :
+        { "name" : "Patrick Forringer",
+          "twitter" : "destos",
+          "github" : "destos",
+          "awesome": true,
+          "humble": false
+        }
     }
   ]
 }
