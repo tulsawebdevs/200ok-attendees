@@ -1,0 +1,14 @@
+{ "type" : "FeatureCollection",
+  "features" : [
+    { "type" : "Feature",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : ["-95.882277","36.063804"]
+      },
+      "properties" :
+        { "name" : "Luke Crouch",
+          "twitter" : "groovecoder"
+        }
+    }
+  ]
+}
