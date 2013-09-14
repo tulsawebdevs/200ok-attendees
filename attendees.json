@@ -9,6 +9,16 @@
         { "name" : "Luke Crouch",
           "twitter" : "groovecoder"
         }
+    },
+    { "type" : "Feature",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : ["-95.904638","36.118914"]
+      },
+      "properties" :
+        { "name" : "Jeremy Satterfield",
+          "github" : "jsatt"
+        }
     }
   ]
 }
