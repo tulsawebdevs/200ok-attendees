@@ -1,4 +1,4 @@
-getAttendees({ "type" : "FeatureCollection",
+callback({ "type" : "FeatureCollection",
   "features" : [
     { "type" : "Feature",
       "geometry" : {
