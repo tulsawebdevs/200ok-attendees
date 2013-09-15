@@ -7,7 +7,9 @@
       },
       "properties" :
         { "name" : "Luke Crouch",
-          "twitter" : "groovecoder"
+          "twitter" : "groovecoder",
+          "github" : "groovecoder",
+          "web" : "groovecoder.com",
         }
     },
     { "type" : "Feature",
