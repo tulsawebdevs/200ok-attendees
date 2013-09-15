@@ -1,4 +1,4 @@
-JSONP_CALLBACK({ "type" : "FeatureCollection",
+angular.callbacks._0({ "type" : "FeatureCollection",
   "features" : [
     { "type" : "Feature",
       "geometry" : {
