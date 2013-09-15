@@ -32,6 +32,18 @@
           "awesome": true,
           "humble": false
         }
+    },
+    { "type" : "Feature",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : ["-96.685932","35.486413"]
+      },
+      "properties" :
+        { "name" : "Buddy Lindsey",
+          "github" : "buddylindsey",
+          "twitter": "buddylindsey",
+          "website": "http://buddylindsey.com/"
+        }
     }
   ]
 }
