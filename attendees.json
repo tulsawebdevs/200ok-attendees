@@ -38,6 +38,16 @@
     { "type" : "Feature",
       "geometry" : {
         "type" : "Point",
+        "coordinates" : ["-95.940565","36.032606"]
+      },
+      "properties" :
+        { "name" : "John Dungan",
+          "github" : "jdungan",
+        }
+    },
+    { "type" : "Feature",
+      "geometry" : {
+        "type" : "Point",
         "coordinates" : ["-96.685932","35.486413"]
       },
       "properties" :
