@@ -1,4 +1,4 @@
-JSON_CALLBACK({ "type" : "FeatureCollection",
+JSONP_CALLBACK({ "type" : "FeatureCollection",
   "features" : [
     { "type" : "Feature",
       "geometry" : {
