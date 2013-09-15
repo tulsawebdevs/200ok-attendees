@@ -42,7 +42,7 @@
       },
       "properties" :
         { "name" : "John Dungan",
-          "github" : "jdungan",
+          "github" : "jdungan"
         }
     },
     { "type" : "Feature",
