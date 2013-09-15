@@ -9,7 +9,7 @@
         { "name" : "Luke Crouch",
           "twitter" : "groovecoder",
           "github" : "groovecoder",
-          "web" : "groovecoder.com",
+          "web" : "groovecoder.com"
         }
     },
     { "type" : "Feature",
