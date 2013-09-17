@@ -56,6 +56,18 @@
           "twitter": "buddylindsey",
           "website": "http://buddylindsey.com/"
         }
+    },
+    { "type" : "Feature",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : ["-95.984770", "36.119598"]
+      },
+      "properties" :
+        { "name" : "Blaine Schmeisser",
+          "github" : "BlaineSch",
+          "twitter": "BlaineSch",
+          "web": "blainesch.com"
+        }
     }
   ]
 }
