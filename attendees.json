@@ -54,7 +54,7 @@
         { "name" : "Buddy Lindsey",
           "github" : "buddylindsey",
           "twitter": "buddylindsey",
-          "website": "http://buddylindsey.com/"
+          "web": "buddylindsey.com"
         }
     },
     { "type" : "Feature",
