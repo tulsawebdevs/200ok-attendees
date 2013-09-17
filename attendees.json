@@ -31,8 +31,7 @@
         { "name" : "Patrick Forringer",
           "twitter" : "destos",
           "github" : "destos",
-          "awesome": true,
-          "humble": false
+          "web": "patrick.forringer.com
         }
     },
     { "type" : "Feature",
