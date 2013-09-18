@@ -67,6 +67,18 @@
           "twitter": "BlaineSch",
           "web": "blainesch.com"
         }
+    },
+    { "type" : "Feature",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : ["-95.992781", "36.156735"]
+      },
+      "properties" :
+        { "name" : "Josh Mize",
+          "github" : "jgmize",
+          "twitter": "jgmize",
+          "web": "mozilla.org"
+        }
     }
   ]
 }
