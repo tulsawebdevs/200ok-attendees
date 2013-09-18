@@ -9,7 +9,7 @@
         { "name" : "Luke Crouch",
           "twitter" : "groovecoder",
           "github" : "groovecoder",
-          "web" : "groovecoder.com"
+          "web" : "http://groovecoder.com"
         }
     },
     { "type" : "Feature",
@@ -31,7 +31,7 @@
         { "name" : "Patrick Forringer",
           "twitter" : "destos",
           "github" : "destos",
-          "web": "patrick.forringer.com"
+          "web": "http://patrick.forringer.com"
         }
     },
     { "type" : "Feature",
@@ -53,7 +53,7 @@
         { "name" : "Buddy Lindsey",
           "github" : "buddylindsey",
           "twitter": "buddylindsey",
-          "web": "buddylindsey.com"
+          "web": "http://buddylindsey.com"
         }
     },
     { "type" : "Feature",
@@ -65,7 +65,7 @@
         { "name" : "Blaine Schmeisser",
           "github" : "BlaineSch",
           "twitter": "BlaineSch",
-          "web": "blainesch.com"
+          "web": "http://blainesch.com"
         }
     },
     { "type" : "Feature",
@@ -77,7 +77,7 @@
         { "name" : "Josh Mize",
           "github" : "jgmize",
           "twitter": "jgmize",
-          "web": "mozilla.org"
+          "web": "http://mozilla.org"
         }
     }
   ]
