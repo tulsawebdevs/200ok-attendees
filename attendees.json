@@ -9,7 +9,7 @@ getAttendees({ "type" : "FeatureCollection",
         { "name" : "Luke Crouch",
           "twitter" : "groovecoder",
           "github" : "groovecoder",
-          "web" : "groovecoder.com"
+          "web" : "http://groovecoder.com"
         }
     },
     { "type" : "Feature",
@@ -31,8 +31,7 @@ getAttendees({ "type" : "FeatureCollection",
         { "name" : "Patrick Forringer",
           "twitter" : "destos",
           "github" : "destos",
-          "awesome": true,
-          "humble": false
+          "web": "http://patrick.forringer.com"
         }
     },
     { "type" : "Feature",
@@ -54,7 +53,31 @@ getAttendees({ "type" : "FeatureCollection",
         { "name" : "Buddy Lindsey",
           "github" : "buddylindsey",
           "twitter": "buddylindsey",
-          "website": "http://buddylindsey.com/"
+          "web": "http://buddylindsey.com"
+        }
+    },
+    { "type" : "Feature",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : ["-95.984770", "36.119598"]
+      },
+      "properties" :
+        { "name" : "Blaine Schmeisser",
+          "github" : "BlaineSch",
+          "twitter": "BlaineSch",
+          "web": "http://blainesch.com"
+        }
+    },
+    { "type" : "Feature",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : ["-95.992781", "36.156735"]
+      },
+      "properties" :
+        { "name" : "Josh Mize",
+          "github" : "jgmize",
+          "twitter": "jgmize",
+          "web": "http://mozilla.org"
         }
     }
   ]
