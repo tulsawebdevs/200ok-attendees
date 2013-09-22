@@ -1,0 +1,23 @@
+/*(http://nativedroid.godesign.ch)
+*/
+
+
+i{
+    float:left;
+    margin-left:2%;
+}
+
+#mapPage, #map_content,#mapbox,.search_map {
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    overflow: hidden;
+}
+
+.header_button{
+    margin-right:2%
+}
+
+#header_icons{
+    margin-right:10%;
+}
