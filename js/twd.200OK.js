@@ -1,9 +1,9 @@
 "use strict";
 
-angular.module('_200OK', ['_200OK.controllers']);
+angular.module('_200OK', ['_200OK.controllers','ngResource']);
 
 angular.module('_200OK.controllers',[])
-    .controller('attendees', function($scope,$http) {
+    .controller('attendees', function($scope) {
         if (!$scope.attendees){
             $scope.run_animation=false;
             $scope.unique_properties={};
@@ -13,16 +13,18 @@ angular.module('_200OK.controllers',[])
                             
             $scope.attendee_markers = L.mapbox.markerLayer().addTo($scope.map);
             $scope.attendee_markers.on('layeradd', function(e) {
-                 var marker = e.layer,
-                     feature = marker.feature,
-                     popupContent =  '';
+                var marker = e.layer,
+                    feature = marker.feature,
+                    popupContent =  '';
 
-                 for (var p in marker.feature.properties){
-                     if (!$scope.unique_properties[p]){
-                         $scope.unique_properties[p]={name:p};
-                     } 
-                     popupContent +='<p>'+p+':'+marker.feature.properties[p]+'</p>'
-                 }
+                 $scope.$apply(function(){
+                     for (var p in marker.feature.properties){
+                         if (!$scope.unique_properties[p]){
+                             $scope.unique_properties[p]={name:p};
+                         } 
+                         popupContent +='<p>'+p+':'+marker.feature.properties[p]+'</p>'
+                     }
+                 });
 
                  marker.setIcon(L.mapbox.marker.icon({
                      'marker-size' : 'medium',
@@ -31,8 +33,7 @@ angular.module('_200OK.controllers',[])
                  }));
                  
                  marker.bindPopup(popupContent,{closeButton: false,});
-                 
-                 
+                                  
              });
 
             $scope.attendee_markers.loadURL('./attendees.json');
@@ -40,6 +41,7 @@ angular.module('_200OK.controllers',[])
         }
 
         $scope.show_venue = function(){
+            
             $scope.map.setView($scope.venue_latlng, 18, {pan: {animate: true}}); 
         };
         $scope.show_all = function(){
@@ -80,7 +82,19 @@ angular.module('_200OK.controllers',[])
             }
         };
 
-    });    
+    })    
+    .controller('twitter', function($scope,$resource) {
+        $scope.twitter = $resource('https://api.twitter.com/1.1/search/:action',
+            {action:'tweets.json',
+             q:'200OK',
+             callback:'JSON_CALLBACK'},
+            {get:{method:'JSONP'}});
+    
+        $scope.doSearch = function () {
+            $scope.twitterResult = $scope.twitter.get({q:$scope.searchTerm});
+        };
+    });
 
 
-
+// token:15195423-hJaqPREzfGYTAuWxd9ft52MWGRsSbCgsvaXbJKE4
+// secret:IHvm6JAaumYEpx7cFFXJd0dbNvbgEjaJuNQ32yBA4
