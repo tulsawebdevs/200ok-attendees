@@ -44,7 +44,7 @@ angular.module('_200OK.controllers',[])
 
                  marker.setIcon(L.mapbox.marker.icon({
                      'marker-size' : 'medium',
-                     'marker-color' : '#f44',
+                     'marker-color' : '#ee3924',
                      'marker-symbol' : 'rocket'
                  }));
                  
@@ -68,7 +68,7 @@ angular.module('_200OK.controllers',[])
             var nb =new L.LatLngBounds([
                 $scope.venue_latlng,
                 $scope.map.user_position]);
-            $scope.map.fitBounds(nb,{padding:[75,75]})
+            $scope.map.fitBounds(nb,{padding:[50,100]})
         };
         
         $scope.slide_show = function($event){

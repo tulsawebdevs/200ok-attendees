@@ -1,7 +1,7 @@
 /*(http://nativedroid.godesign.ch)
 */
 
-
+/* 200OK RGBA colors  aqua: #14a2b2ff red: #ee3924ff*/
 i{
     float:left;
     margin-left:2%;
@@ -22,6 +22,11 @@ i{
     margin-right:10%;
 }
 
+img.logo {
+    height:50px;
+    float:left;
+    margin-left:5%;
+}
 
 /*leaflet user marker*/
 @-moz-keyframes leaflet-usermarker-pulsate {
