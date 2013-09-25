@@ -38,7 +38,7 @@ angular.module('_200OK.controllers',[])
                          if (!$scope.unique_properties[p]){
                              $scope.unique_properties[p]={name:p};
                          } 
-                         popupContent +='<p>'+p+':'+marker.feature.properties[p]+'</p>'
+                         popupContent +='<p><b>'+p+'</b>:'+marker.feature.properties[p]+'</p>'
                      }
                  });
 
