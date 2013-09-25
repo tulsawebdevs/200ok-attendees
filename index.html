@@ -36,7 +36,7 @@
     
     <!-- angular-resource.min.js -->
     <script src='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
-    <script type="text/javascript" src="./js/twd.200OK.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
 
 </head>
                                 
@@ -67,14 +67,15 @@
         <div data-position="fixed" data-tap-toggle="false" data-role="footer" data-tap-toggle="false" data-theme='b'>
             <div data-role="navbar">
             <ul>
-                <li><a ng-click = 'show_venue()'>Fly Loft</a></li>
-                <li><a ng-click = 'slide_show($event)'>Start</a></li>
-                <li><a id='show_all' ng-click = 'show_all()'>Everyone</a></li>
+                <li><a ng-click = 'show_venue()'>Venue</a></li>
+                <li><a ng-click = 'show_user()'>You</a></li>
+                <li><a id='show_all' ng-click = 'show_all()'>All</a></li>
                 <li>
                     <select  ng-change='property_selected($event)' ng-model='filter_property' ng-options="u.name for (k,u) in unique_properties" >
-                        <option value="">Find by...</option>
+                        <option value="">Find...</option>
                     </select> 
-                </li>
+                </li>                
+                <li><a ng-click = 'slide_show($event)'>Start</a></li>
             </ul>
             </div>
         </div>
