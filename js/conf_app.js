@@ -68,7 +68,7 @@ angular.module('_200OK.controllers',[])
             var nb =new L.LatLngBounds([
                 $scope.venue_latlng,
                 $scope.map.user_position]);
-            $scope.map.fitBounds(nb,{padding:[50,100]})
+            $scope.map.fitBounds(nb,{paddingTopLeft:[50,0],paddingBottomRight:[0,75]})
         };
         
         $scope.slide_show = function($event){
