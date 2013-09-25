@@ -12,22 +12,12 @@ angular.module('_200OK.controllers',[])
 
             var distWatchID,
             posOptions = {enableHighAccuracy: true},    
-            user_marker = new L.circle([0,0],5,
-                 {fillColor: 'blue',
-                    fillOpacity: 1,
-                    opacity:0
-                }).addTo($scope.map),
-            user_accuracy_circle = new L.circle([0,0],100,
-                 {fillColor: 'aqua',
-                    fillOpacity: 0.3,
-                    opacity:0
-                }).addTo($scope.map),
+            user_marker = L.userMarker([0,0], {pulsing:true, accuracy:100,smallIcon:true}).addTo($scope.map),
             new_position = function(pos) {
                 var pos_accuracy = pos.coords.accuracy > 90 && 90 || pos.coords.accuracy;
                 $scope.map.user_position = new L.LatLng(pos.coords.latitude, pos.coords.longitude);
                 user_marker.setLatLng($scope.map.user_position);
-                user_accuracy_circle.setLatLng($scope.map.user_position);
-                user_accuracy_circle.setRadius(pos_accuracy);
+                user_marker.setAccuracy(pos_accuracy);
             },
             appPosFail = function (err) {
                 if (err){
