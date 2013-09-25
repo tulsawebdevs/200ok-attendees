@@ -1,6 +1,5 @@
 "use strict";
-
-angular.module('_200OK', ['_200OK.controllers','_200OK.directives','ngResource']);
+angular.module('_200OK', ['_200OK.controllers','ngResource']);
 
 angular.module('_200OK.controllers',[])
     .controller('attendees', function($scope) {
@@ -117,27 +116,4 @@ angular.module('_200OK.controllers',[])
             }
         };
 
-    })    
-    .controller('twitter', function($scope,$resource) {
-        $scope.twitter = $resource('https://api.twitter.com/1.1/search/:action',
-            {action:'tweets.json',
-             q:'200OK',
-             callback:'JSON_CALLBACK'},
-            {get:{method:'JSONP'}});
-    
-        $scope.doSearch = function () {
-            $scope.twitterResult = $scope.twitter.get({q:$scope.searchTerm});
-        };
-    });
-    
-    angular.module('_200OK.directives', [])
-        .directive('thumbnail',function(){
-            return {
-             restrict : 'E',
-             scope : {attendee:'='},
-             templateUrl : 'popup.html'
-            }
-        });
-
-// token:15195423-hJaqPREzfGYTAuWxd9ft52MWGRsSbCgsvaXbJKE4
-// secret:IHvm6JAaumYEpx7cFFXJd0dbNvbgEjaJuNQ32yBA4
+    });    
