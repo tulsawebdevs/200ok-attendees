@@ -6,15 +6,21 @@ i{
     margin-left:2%;
 }
 
+body.ui-mobile body{
+    overflow: hidden;
+}
 #mapPage,
 #map_content{
-    width: 100%;
-    height: 100%;
     overflow: hidden;
     padding: 0;
+    position: relative;
 }
 #map_content{
-    padding: 0 0 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 62px;
 }
 
 .header_button{
@@ -28,7 +34,13 @@ i{
 img.logo {
     height:50px;
     float:left;
-    margin-left:5%;
+    margin-left:0;
+    padding-right: 10px;
+}
+
+#header_icons .ui-link{
+    margin: 5px 0 0;
+    display: block;
 }
 #footer-nav .ui-select .ui-btn-inner{
     padding-right: 0;
