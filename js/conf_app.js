@@ -79,7 +79,7 @@ angular.module('_200OK.controllers',[])
             $($event.target).text($scope.run_animation && "Stop"||'Start')
             function cycle(markers) {
                 var i = 0;
-                (function() {
+                (function run() {
                     if (++i > markers.length - 1) i = 0;
                     pan_to_marker(markers[i]);
                     markers[i].openPopup();
@@ -135,10 +135,10 @@ angular.module('_200OK.controllers',[])
     });
 
 angular.module('_200OK.directives', [])
-    .directive('thumbnail', function(){
+    .directive('popup', function(){
         return {
             restrict : 'E',
-            scope : {attendee:'='},
-            templateUrl : 'popup.html'
+            scope : {properites:'='},
+            templateUrl : 'widgets/popup.html'
         }
     });
