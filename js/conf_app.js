@@ -74,7 +74,7 @@ angular.module('_200OK.controllers',[])
         $scope.slide_show = function($event){
             var markers = [];
             $scope.run_animation = ! $scope.run_animation;
-            $($event.target).text ($scope.run_animation && "Stop"||'Start')
+            $($event.target).text($scope.run_animation && "Stop"||'Start')
             function cycle(markers) {
                 var i = 0;
                 function run() {
@@ -106,24 +106,24 @@ angular.module('_200OK.controllers',[])
             }
         };
 
-    })    
+    })
     .controller('twitter', function($scope,$resource) {
         $scope.twitter = $resource('https://api.twitter.com/1.1/search/:action',
             {action:'tweets.json',
              q:'200OK',
              callback:'JSON_CALLBACK'},
             {get:{method:'JSONP'}});
-    
+
         $scope.doSearch = function () {
             $scope.twitterResult = $scope.twitter.get({q:$scope.searchTerm});
         };
     });
-    
-    angular.module('_200OK.directives', [])
-        .directive('thumbnail',function(){
-            return {
-             restrict : 'E',
-             scope : {attendee:'='},
-             templateUrl : 'popup.html'
-            }
-        });
+
+angular.module('_200OK.directives', [])
+    .directive('thumbnail', function(){
+        return {
+            restrict : 'E',
+            scope : {attendee:'='},
+            templateUrl : 'popup.html'
+        }
+    });

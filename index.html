@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" ng-app='_200OK'>
   <head>
       <meta charset="utf-8">
@@ -41,51 +41,45 @@
     <script type="text/javascript" src="./js/conf_app.js"></script>
 
 </head>
-                                
+
 <body ng-controller='attendees'>
      <div id="mapPage"
           class="ui-page ui-body-b ui-header ui-bar-b ui-header-fixed"
           role="banner"
           data-role='page'
           data-theme='b'>
-          
-           <div class="ui-header ui-bar-b ui-header-fixed" 
+
+           <div class="ui-header ui-bar-b ui-header-fixed"
                data-role="header"
                data-position="fixed"
                data-theme="b">
-                <div id = "header_icons" data-role='container' >
+                <div id="header_icons" data-role='container' >
                     <img src='./css/img/200ok.png' class='logo'></img>
                     <a href='http://200ok.us'>Oklahoma's premier web conference</a>
                </div>
-           </div><!-- end header         -->
-                
-           <div id="map_holder">
-               
-               <div id="map_content" 
-                   class="ui-content search_map" 
-                   role="main" data-role="content" data-theme="b">
-               </div>
+           </div><!-- end header -->
+
+           <div id="map_content" 
+               class="ui-content search_map" 
+               role="main" data-role="content" data-theme="b">
            </div>
-                    
+
         <div data-position="fixed" data-tap-toggle="false" data-role="footer" data-tap-toggle="false" data-theme='b'>
             <div data-role="navbar">
             <ul>
-                <li><a ng-click = 'show_venue()'>Venue</a></li>
-                <li><a ng-click = 'show_user()'>You</a></li>
-                <li><a id='show_all' ng-click = 'show_all()'>All</a></li>
+                <li><a ng-click='show_venue()'>Venue</a></li>
+                <li><a ng-click='show_user()'>You</a></li>
+                <li><a id='show_all' ng-click='show_all()'>All</a></li>
                 <li>
-                    <select  ng-change='property_selected($event)' ng-model='filter_property' ng-options="u.name for (k,u) in unique_properties" >
-                        <option value="">Find...</option>
-                    </select> 
-                </li>                
+                    <select ng-change='property_selected($event)' ng-model='filter_property' ng-options="u.name for (k,u) in unique_properties" >
+                        <option>Find...</option>
+                    </select>
+                </li>
                 <li><a ng-click = 'slide_show($event)'>Start</a></li>
             </ul>
             </div>
         </div>
 
-     </div> <!-- end page          -->
-     
-     </div>
-   
+     </div> <!-- end page -->
 </body>
 </html>
