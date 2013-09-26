@@ -48,7 +48,6 @@
           role="banner"
           data-role='page'
           data-theme='b'>
-
            <div class="ui-header ui-bar-b ui-header-fixed"
                data-role="header"
                data-position="fixed"
@@ -64,18 +63,18 @@
                role="main" data-role="content" data-theme="b">
            </div>
 
-        <div data-position="fixed" data-tap-toggle="false" data-role="footer" data-tap-toggle="false" data-theme='b'>
+        <div data-position="fixed" data-tap-toggle="false" data-role="footer" data-tap-toggle="false" data-theme='b' id="footer-nav">
             <div data-role="navbar">
             <ul>
                 <li><a ng-click='show_venue()'>Venue</a></li>
                 <li><a ng-click='show_user()'>You</a></li>
-                <li><a id='show_all' ng-click='show_all()'>All</a></li>
                 <li>
-                    <select ng-change='property_selected($event)' ng-model='filter_property' ng-options="u.name for (k,u) in unique_properties" >
-                        <option>Find...</option>
+                    <select ng-change='property_selected($event)' ng-model='filter_property' ng-options="u for u in unique_properties" >
+                        <option value="">Find...</option>
                     </select>
                 </li>
-                <li><a ng-click = 'slide_show($event)'>Start</a></li>
+                <li><a ng-click='slide_show($event)'>Start</a></li>
+                <li><a ng-click='select_winner($event)'>Winnar</a></li>
             </ul>
             </div>
         </div>

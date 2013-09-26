@@ -30,6 +30,9 @@ img.logo {
     float:left;
     margin-left:5%;
 }
+#footer-nav .ui-select .ui-btn-inner{
+    padding-right: 0;
+}
 
 /*leaflet user marker*/
 @-moz-keyframes leaflet-usermarker-pulsate {
