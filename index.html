@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='_200OK'>
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="200 OK App">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      
+      <link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.min.css" id='jQMnDColor' />
+      <!-- FontAwesome - http://fortawesome.github.io/Font-Awesome/ -->
+      <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+      <link href="//api.tiles.mapbox.com/mapbox.js/v1.2.0/mapbox.css" rel="stylesheet" />
+
+      <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> -->
+
+      <!-- jQueryMobileCSS - original without styling -->
+      <link rel="stylesheet" href="css/jquerymobile.css" />
+
+      <!-- nativeDroid core CSS -->
+      <link rel="stylesheet" href="css/jquerymobile.nativedroid.css" />
+
+      <!-- nativeDroid: Light/Dark -->
+      <link rel="stylesheet" href="css/jquerymobile.nativedroid.light.css"  id='jQMnDTheme' />
+
+      <!-- nativeDroid: Color Schemes -->
+      <link rel="stylesheet" href="css/jquerymobile.nativedroid.color.blue.css" id='jQMnDColor' />
+
+
+      <link rel="stylesheet"  href="css/extras.css" rel="stylesheet">
+
+    <script src= "http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script src= "http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular-resource.min.js"></script>
+    
+    <!-- angular-resource.min.js -->
+    <script src='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
+    <script type="text/javascript" src="./js/leaflet.usermarker.js"></script>
+
+    <script type="text/javascript" src="./js/conf_app.js"></script>
+
+</head>
+
+<body ng-controller='attendees'>
+     <div id="mapPage"
+          class="ui-page ui-body-b ui-header ui-bar-b ui-header-fixed"
+          role="banner"
+          data-role='page'
+          data-theme='b'>
+           <div class="ui-header ui-bar-b ui-header-fixed"
+               data-role="header"
+               data-position="fixed"
+               data-theme="b">
+                <div id="header_icons" data-role='container' >
+                    <img src='./css/img/200ok.png' class='logo'></img>
+                    <a href='http://200ok.us'>Oklahoma's premier web conference</a>
+               </div>
+           </div><!-- end header -->
+
+           <div id="map_content" 
+               class="ui-content search_map" 
+               role="main" data-role="content" data-theme="b">
+           </div>
+
+        <div data-position="fixed" data-tap-toggle="false" data-role="footer" data-tap-toggle="false" data-theme='b' id="footer-nav">
+            <div data-role="navbar">
+            <ul>
+                <li><a ng-click='show_venue()'>Venue</a></li>
+                <li><a ng-click='show_user()'>You</a></li>
+                <li>
+                    <select ng-change='property_selected($event)' ng-model='filter_property' ng-options="u for u in unique_properties" >
+                        <option value="">Find...</option>
+                    </select>
+                </li>
+                <li><a ng-click='slide_show($event)'>Start</a></li>
+                <li><a ng-click='select_winner($event)'>Winnar</a></li>
+            </ul>
+            </div>
+        </div>
+
+     </div> <!-- end page -->
+</body>
+</html>
