@@ -1,85 +1,2298 @@
-{ "type" : "FeatureCollection",
-  "features" : [
-    { "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : ["-95.8833","35.9421"]
-      },
-      "properties" :
-        { "name" : "Luke Crouch",
-          "twitter" : "groovecoder",
-          "github" : "groovecoder",
-          "web" : "http://groovecoder.com"
-        }
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "web": "http://groovecoder.com", 
+        "github": "groovecoder", 
+        "name": "Luke Crouch", 
+        "twitter": "groovecoder", 
+        "company": "Mozilla", 
+        "eventbrite_id": "226601179", 
+        "location": "Tulsa, OK", 
+        "email": "luke.crouch@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-96.6850174", 
+          "35.4867368"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "web": "http://buddylindsey.com", 
+        "github": "buddylindsey", 
+        "name": "Buddy Lindsey", 
+        "twitter": "buddylindsey", 
+        "company": "", 
+        "eventbrite_id": "226601683", 
+        "location": "Prauge, Oklahoma", 
+        "email": "buddy@buddylindsey.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "web": "http://mozilla.org", 
+        "github": "jgmize", 
+        "name": "Josh Mize", 
+        "twitter": "jgmize", 
+        "company": "Mozilla", 
+        "eventbrite_id": "226602343", 
+        "location": "Tulsa, OK", 
+        "email": "jgmize@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "github": "jsatt", 
+        "name": "Jeremy Satterfield", 
+        "company": "", 
+        "eventbrite_id": "226603319", 
+        "location": "Tulsa, OK", 
+        "email": "jsatt22@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "github": "jdungan", 
+        "name": "John Dungan", 
+        "company": "Code For Tulsa", 
+        "eventbrite_id": "226660791", 
+        "location": "Tulsa OK", 
+        "email": "johnadungan@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "226737273", 
+        "company": "ConsumerAffairs.com", 
+        "location": "Tulsa, OK", 
+        "name": "John Whitlock", 
+        "email": "john-whitlock@ieee.org"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "web": "http://patrick.forringer.com", 
+        "github": "destos", 
+        "name": "Patrick Forringer", 
+        "twitter": "destos", 
+        "company": "", 
+        "eventbrite_id": "226738789", 
+        "location": "Tulsa, OK", 
+        "email": "patrick@forringer.com", 
+        "awesome": "still"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "229503709", 
+        "company": "", 
+        "location": "tulsa,ok", 
+        "name": "blixa morgan", 
+        "email": "Blixa@projectmakeit.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "229503743", 
+        "company": "", 
+        "location": "Tulsa, Ok", 
+        "name": "Steven Copley", 
+        "email": "steven@stevencopley.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.7835194", 
+          "36.0565606"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "229645229", 
+        "company": "ConocoPhillips", 
+        "location": "Broken Arrow, OK", 
+        "name": "Mike Marks", 
+        "email": "mike@mikemarks.net"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "229651705", 
+        "company": "Auryn Creative", 
+        "location": "Tulsa, OK", 
+        "name": "Carlos Moreno", 
+        "email": "tulsadesigner@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "229655303", 
+        "company": "Oaktree Software", 
+        "location": "Tulsa,OK", 
+        "name": "Danica Jones", 
+        "email": "d@diyadventurer.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.9808179", 
+          "36.7473114"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "229666825", 
+        "company": "ConocoPhillips", 
+        "location": "Bartlesville, OK", 
+        "name": "Milam Dobbins", 
+        "email": "milam-d@prodigy.net"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-96.8004511", 
+          "32.7801399"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "229676895", 
+        "company": "", 
+        "location": "Dallas, TX", 
+        "name": "Matthew Crouch", 
+        "email": "whyyousee@yahoo.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.4394777", 
+          "35.2225668"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "229803959", 
+        "company": "ShopOn", 
+        "location": "Norman, OK", 
+        "name": "Amanda Harlin", 
+        "email": "amanda.n.harlin@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.4394777", 
+          "35.2225668"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "235346997", 
+        "company": "University of Oklahoma", 
+        "location": "Norman, OK", 
+        "name": "David Hoecker", 
+        "email": "dmhoecker@ou.edu"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "236615191", 
+        "company": "Robert Half Technology", 
+        "location": "Tulsa, OK", 
+        "name": "Calley Findley", 
+        "email": "calley.findley@rht.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.4780954", 
+          "35.6528323"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "237449215", 
+        "company": "Mozilla", 
+        "location": "Edmond, OK", 
+        "name": "Yury Delendik", 
+        "email": "ydelendik@mozilla.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "237798465", 
+        "company": "none", 
+        "location": "tulsa", 
+        "name": "blixa morgan", 
+        "email": "blixa@projectmakeit.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "238005113", 
+        "company": "Arvest Bank Group", 
+        "location": "Tulsa, OK", 
+        "name": "Brad Kent", 
+        "email": "bkent@arvest.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "238503969", 
+        "company": "", 
+        "location": "Tulsa, OK", 
+        "name": "Jon Holley", 
+        "email": "jhtulsatv@yahoo.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.5164276", 
+          "35.4675602"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "240463419", 
+        "company": "Neoporter", 
+        "location": "OKC, OK", 
+        "name": "Lydia Benham", 
+        "email": "lydia@neoporter.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.5164276", 
+          "35.4675602"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "240463421", 
+        "company": "Neoporter", 
+        "location": "OKC, OK", 
+        "name": "Mona Vaughn", 
+        "email": "mona@neoporter.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "242480733", 
+        "company": "Baker Hughes", 
+        "location": "Tulsa, OK", 
+        "name": "Dylan Allen", 
+        "email": "dylan.allen@bakerhughes.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "243031181", 
+        "company": "Ambitious Adventures Web Development", 
+        "location": "PO Box 150035 Tulsa, OK  74115", 
+        "name": "Nancy Lehti", 
+        "email": "nancy.lehti@amb-adv.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "243834167", 
+        "company": "Ameristar Fence Products", 
+        "location": "Tulsa, OK ", 
+        "name": "Liz Stubbs", 
+        "email": "lstubbs@ameristarfence.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "244904275", 
+        "company": "Williams", 
+        "location": "Tulsa, OK ", 
+        "name": "Nicole Nascenzi", 
+        "email": "Nicole.Nascenzi@williams.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.4867028", 
+          "35.3395079"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "245306195", 
+        "company": "Acquia", 
+        "location": "Moore, OK", 
+        "name": "Alexander Ward", 
+        "email": "daginus@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "245936481", 
+        "company": "ORAL ROBERTS UNIVERSITY", 
+        "location": "TULSA  OK", 
+        "name": "CHRIS MILLIGAN", 
+        "email": "cmilligan@oru.edu"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "245936483", 
+        "company": "ORAL ROBERTS UNIVERSITY", 
+        "location": "TULSA OK", 
+        "name": "CARLOS DIAZ", 
+        "email": "cdiaz@oru.edu"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "247146561", 
+        "company": "City of Tulsa", 
+        "location": "Tulsa, OK", 
+        "name": "John Gregorovic", 
+        "email": "jgregorovic@cityoftulsa.org"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "247146563", 
+        "company": "City of Tulsa", 
+        "location": "Tulsa, OK", 
+        "name": "Mark Temple", 
+        "email": "mtemple@cityoftulsa.org"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "247146565", 
+        "company": "City of Tulsa", 
+        "location": "Tulsa, OK", 
+        "name": "Rae Melton", 
+        "email": "rmelton@cityoftulsa.org"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "247408805", 
+        "company": "TJRM, Inc.", 
+        "location": "Tulsa, OK", 
+        "name": "Tim Morgan", 
+        "email": "tim@timmorgan.org"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "247561179", 
+        "company": "Vitals", 
+        "location": "Tulsa, OK", 
+        "name": "Nathan Phelps", 
+        "email": "nathan.phelps@vitals.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "247561181", 
+        "company": "Vitals", 
+        "location": "Tulsa, OK", 
+        "name": "Brandon Westcott", 
+        "email": "brandon.westcott@vitals.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "247561183", 
+        "company": "Vitals", 
+        "location": "Tulsa, OK", 
+        "name": "Robin Curry", 
+        "email": "robin.curry@vitals.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "247561185", 
+        "company": "Vitals", 
+        "location": "Tulsa, OK", 
+        "name": "Chris Collins", 
+        "email": "chris.collins@vitals.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "web": "http://blainesch.com", 
+        "github": "BlaineSch", 
+        "name": "Blaine Schmeisser", 
+        "twitter": "BlaineSch", 
+        "company": "Vitals", 
+        "eventbrite_id": "247561187", 
+        "location": "Tulsa, OK", 
+        "email": "blaine.schmeisser@vitals.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "247561189", 
+        "company": "Vitals", 
+        "location": "Tulsa, OK", 
+        "name": "Ralph Churchill", 
+        "email": "ralph.churchill@vitals.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "247561191", 
+        "company": "Vitals", 
+        "location": "Tulsa, OK", 
+        "name": "Tim Morgan", 
+        "email": "tim.morgan@vitals.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "247646977", 
+        "company": "City of Tulsa", 
+        "location": "Tulsa", 
+        "name": "T. L. Cox", 
+        "email": "thomas.cox@cityoftulsa.org"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "247997455", 
+        "company": "Gitwit Creative", 
+        "location": "Tulsa, OK", 
+        "name": "Jacob Johnson", 
+        "email": "jacob@gitwitcreative.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-92.2895948", 
+          "34.7464809"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "248831905", 
+        "company": "Made by Few", 
+        "location": "Little Rock, AR", 
+        "name": "Arlton Lowry", 
+        "email": "arltonlowry@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.8122658", 
+          "35.2908947"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "248876041", 
+        "company": "Freelancer", 
+        "location": "Tuttle, Oklahoma", 
+        "name": "Devin Clark", 
+        "email": "dclarkdesign@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.8547119", 
+          "36.2695388"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "249416259", 
+        "company": "", 
+        "location": "Owasso, OK", 
+        "name": "Mohammed Al Sahaf", 
+        "email": "msaa1990@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "249416743", 
+        "company": "", 
+        "location": "Tulsa, OK", 
+        "name": "Ryan Miller", 
+        "email": "ryansmillr@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.7430608", 
+          "30.267153"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "249436465", 
+        "company": "", 
+        "location": "Austin, TX", 
+        "name": "Adam Horton", 
+        "email": "digitalicarus@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "250116337", 
+        "company": "", 
+        "location": "Tulsa, OK", 
+        "name": "Jason Holden", 
+        "email": "jason@jacksontechnical.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.7430608", 
+          "30.267153"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "250210139", 
+        "company": "Four Kitchens", 
+        "location": "Austin, TX", 
+        "name": "Taylor Smith", 
+        "email": "taylor@fourkitchens.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "252641875", 
+        "company": "GuRuStu Group", 
+        "location": "Tulsa, OK", 
+        "name": "Adam Brown", 
+        "email": "adam@gurustugroup.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.4780954", 
+          "35.6528323"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "253637503", 
+        "company": "Web", 
+        "location": "Edmond", 
+        "name": "Matt Milburn", 
+        "email": "matt@back40design.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.4780954", 
+          "35.6528323"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "253637505", 
+        "company": "", 
+        "location": "Edmond", 
+        "name": "Reyna Wilcox", 
+        "email": "reyna@back40design.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.4780954", 
+          "35.6528323"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "253637507", 
+        "company": "", 
+        "location": "Edmond", 
+        "name": "Ryan Kirkpatrick", 
+        "email": "ryank@back40design.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.4780954", 
+          "35.6528323"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "253637509", 
+        "company": "", 
+        "location": "Edmond", 
+        "name": "Jessica Hough", 
+        "email": "jessica@back40design.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "254465015", 
+        "company": "The Crosby Group", 
+        "location": "Tulsa, Oklahoma", 
+        "name": "Cale Spratt", 
+        "email": "crsprat@okstate.edu"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.0583681", 
+          "36.1156071"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "254465907", 
+        "company": "", 
+        "location": "Stillwater, OK", 
+        "name": "Sam Snelling", 
+        "email": "sam@snelling.io"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.7835194", 
+          "36.0565606"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "254787165", 
+        "company": "Bryant Web Consulting LLC", 
+        "location": "Broken Arrow, OK", 
+        "name": "Steve Bryant", 
+        "email": "sebtools@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "255039605", 
+        "company": "University of Tulsa", 
+        "location": "Tulsa, OK", 
+        "name": "Christian Mann", 
+        "email": "christian-mann@utulsa.edu"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "255039821", 
+        "company": "", 
+        "location": "Tulsa, OK", 
+        "name": "Eric Kuxhausen", 
+        "email": "erickuxhausen@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.3361111", 
+          "37.6888889"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "255161455", 
+        "company": "Tortugas Consulting, LLC", 
+        "location": "Wichita, KS", 
+        "name": "Jacob Walker", 
+        "email": "jacobwalker0814@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.3361111", 
+          "37.6888889"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "255161457", 
+        "company": "Tortugas Consulting, LLC", 
+        "location": "Wichita, KS", 
+        "name": "Matthew Keeler", 
+        "email": "keelerm@tortugas-llc.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "255195833", 
+        "company": "", 
+        "location": "Tulsa, Oklahoma", 
+        "name": "Abigail LaBounty", 
+        "email": "alabount@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "255197749", 
+        "company": "University of Tulsa", 
+        "location": "Tulsa", 
+        "name": "Dennis Hodapp", 
+        "email": "dennis-hodapp@utulsa.edu"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.0583681", 
+          "36.1156071"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "255527981", 
+        "company": "Oklahoma State University", 
+        "location": "Stillwater, OK", 
+        "name": "Matthew Horton", 
+        "email": "Mattux3.0@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "255772851", 
+        "company": "", 
+        "location": "Tulsa, OK", 
+        "name": "Abbott Shwiyyat", 
+        "email": "shwiyyat@yahoo.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.3361111", 
+          "37.6888889"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "255854625", 
+        "company": "", 
+        "location": "Wichita, KS", 
+        "name": "Jonathan Van Winkle", 
+        "email": "jonathan.vanwinkle@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "256094575", 
+        "company": "moinnadeem.com", 
+        "location": "Tulsa, OK", 
+        "name": "Moin Nadeem", 
+        "email": "moinnadeem@moinnadeem.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-104.9847179", 
+          "39.737567"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "256112769", 
+        "company": "All Trades Design", 
+        "location": "Denver, CO", 
+        "name": "Andrew Disney", 
+        "email": "aldisney@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.5164276", 
+          "35.4675602"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "256246707", 
+        "company": "PixelJoy Design", 
+        "location": "Oklahoma City, OK", 
+        "name": "Susan Simkins", 
+        "email": "susan@susan-simkins.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.4394777", 
+          "35.2225668"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "256315413", 
+        "company": "", 
+        "location": "Norman, OK", 
+        "name": "Rick Yoesting", 
+        "email": "rick.yoesting@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "256321261", 
+        "company": "University of Tulsa", 
+        "location": "Tulsa, OK", 
+        "name": "Jared King", 
+        "email": "jared@nfuseweb.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "256346503", 
+        "company": "Boston University", 
+        "location": "Tulsa, OK", 
+        "name": "William  Carlton", 
+        "email": "william.carlton@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "256376849", 
+        "company": "", 
+        "location": "Tulsa, Ok", 
+        "name": "Daniel Fogerty", 
+        "email": "danjfogerty@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "256509855", 
+        "company": "in2vate, llc", 
+        "location": "Tulsa, OK", 
+        "name": "Travis West", 
+        "email": "trvswst@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "256566259", 
+        "company": "Saint Francis Health System", 
+        "location": "Tulsa, OK", 
+        "name": "Ebony Boyd", 
+        "email": "ebony.boyd@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257106441", 
+        "company": "GuRuStu", 
+        "location": "Tulsa, Ok", 
+        "name": "Richard Keller", 
+        "email": "richard.be.jamin@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.5164276", 
+          "35.4675602"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257144585", 
+        "company": "American Fidelity", 
+        "location": "Oklahoma City, OK", 
+        "name": "Natasha Martin", 
+        "email": "natashamrtn3@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.5164276", 
+          "35.4675602"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257287933", 
+        "company": "Francis Tuttle Technology Center", 
+        "location": "Oklahoma City, OK", 
+        "name": "Christy Sooter", 
+        "email": "bhoover@francistuttle.edu"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.5164276", 
+          "35.4675602"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257314937", 
+        "company": "American Fidelity Assurance Company", 
+        "location": "Oklahoma City", 
+        "name": "Edward Collins", 
+        "email": "ed.collins@af-group.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.5164276", 
+          "35.4675602"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257314939", 
+        "company": "American Fidelity Assurance Company", 
+        "location": "Oklahoma City", 
+        "name": "Damon  Hombs", 
+        "email": "damon.hombs@af-group.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257339401", 
+        "company": "", 
+        "location": "Tulsa, Ok", 
+        "name": "Robert Lamar", 
+        "email": "Robert@newmedio.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257339403", 
+        "company": "", 
+        "location": "Tulsa, ok", 
+        "name": "Charles McNamara", 
+        "email": "Charles@newmedio.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257339405", 
+        "company": "", 
+        "location": "Tulsa, Ok", 
+        "name": "Todd Barnes", 
+        "email": "todd@newmedio.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257339407", 
+        "company": "", 
+        "location": "Tulsa, Ok", 
+        "name": "Scott Barnes", 
+        "email": "scott@newmedio.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257339409", 
+        "company": "", 
+        "location": "Tulsa, ok", 
+        "name": "Tyler Jackson", 
+        "email": "Tyler@newmedio.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257339411", 
+        "company": "", 
+        "location": "Tulsa, ok", 
+        "name": "Jon Bartlett", 
+        "email": "Jonathan@newmedio.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257358031", 
+        "company": "Williams", 
+        "location": "Tulsa, OK", 
+        "name": "Kelly Cook", 
+        "email": "kelly.cook@williams.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-94.1574263", 
+          "36.0625795"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257383489", 
+        "company": "Craftistas", 
+        "location": "Fayetteville, AR", 
+        "name": "Nathan Daniel", 
+        "email": "nathanpdaniel01@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-94.1574263", 
+          "36.0625795"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257390075", 
+        "company": "Craftistas", 
+        "location": "Fayetteville, AR", 
+        "name": "Camille Malkiewicz", 
+        "email": "cmalkiew@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.4780954", 
+          "35.6528323"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257416857", 
+        "company": "Critical Technologies", 
+        "location": "Edmond", 
+        "name": "David Miller", 
+        "email": "dmiller@criticaltech.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.4780954", 
+          "35.6528323"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257416859", 
+        "company": "Critical Technologies", 
+        "location": "Edmond", 
+        "name": "Jon Ownbey", 
+        "email": "jownbey@criticaltech.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.5164276", 
+          "35.4675602"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257422405", 
+        "company": "", 
+        "location": "Oklahoma City, OK", 
+        "name": "Scott  Chan", 
+        "email": "scott.chan@icloud.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.5164276", 
+          "35.4675602"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257422407", 
+        "company": "", 
+        "location": "Oklahoma City, OK", 
+        "name": "Aroon Theng", 
+        "email": "aroontheng@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.5164276", 
+          "35.4675602"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257569705", 
+        "company": "", 
+        "location": "Oklahoma City, OK", 
+        "name": "Maria Kalashnikova", 
+        "email": "maria.kalashnikova.1@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "257927987", 
+        "company": "Robert Half Technology", 
+        "location": "Tulsa, OK", 
+        "name": "Aubrie Stephenson", 
+        "email": "aubrie.stephenson@rht.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.6322639", 
+          "35.5186678"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "258127183", 
+        "company": "Self Employed", 
+        "location": "Bethany, OK", 
+        "name": "Daniel Kline", 
+        "email": "danielkline19@hotmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "258254331", 
+        "company": "", 
+        "location": "Tulsa, OK", 
+        "name": "Emmett Cookson", 
+        "email": "emmett-cookson@utulsa.edu"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "258300377", 
+        "company": "", 
+        "location": "Tulsa, OK", 
+        "name": "Leland Abels", 
+        "email": "leland-abels@utulsa.edu"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "258313801", 
+        "company": "", 
+        "location": "Tulsa, OK", 
+        "name": "Steven Reed", 
+        "email": "steven-reed@utulsa.ed"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.4394777", 
+          "35.2225668"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "258529193", 
+        "company": "OctoLabs", 
+        "location": "Norman, OK", 
+        "name": "Jeremy Green", 
+        "email": "jeremy@octolabs.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "258904873", 
+        "company": "Brothers & Company", 
+        "location": "Tulsa, OK", 
+        "name": "Michael Galloway", 
+        "email": "mgalloway@broco.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "258904875", 
+        "company": "Brothers & Company", 
+        "location": "Tulsa, OK", 
+        "name": "Travis Miller", 
+        "email": "tmiller@broco.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "259047631", 
+        "company": "OU Tulsa", 
+        "location": "Tulsa, OK", 
+        "name": "Nick Davis, PhD", 
+        "email": "nicholas-davis@ouhsc.edu"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "259063027", 
+        "company": "Byers Creative", 
+        "location": "Tulsa, OK", 
+        "name": "Angela Byers", 
+        "email": "angela@byerscreative.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "259063029", 
+        "company": "Byers Creative", 
+        "location": "Tulsa, OK", 
+        "name": "Madeline Crawford", 
+        "email": "madeline@byerscreative.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.4780954", 
+          "35.6528323"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "259168775", 
+        "company": "", 
+        "location": "Edmond, OK", 
+        "name": "Brandon Tindle", 
+        "email": "brandon.tindle@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.5164276", 
+          "35.4675602"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "259372857", 
+        "company": "VI Marketing and Branding", 
+        "location": "Okc", 
+        "name": "Dylan Conklin", 
+        "email": "dconklin@thevibrand.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.5164276", 
+          "35.4675602"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "259797617", 
+        "company": "aremInteractive", 
+        "location": "Oklahoma City, OK", 
+        "name": "Ralph Miller", 
+        "email": "ralph@areminteractive.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-94.969956", 
+          "35.91537"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "259906991", 
+        "company": "CherokeeNation", 
+        "location": "Tahlequah, Ok", 
+        "name": "kristopher gourd", 
+        "email": "krisgourd@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.3361111", 
+          "37.6888889"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "260125579", 
+        "company": "High Touch Technologies", 
+        "location": "Wichita, KS", 
+        "name": "Seth Etter", 
+        "email": "sethetter@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "260318275", 
+        "company": "Event Espresso", 
+        "location": "Tulsa, OK", 
+        "name": "Trisha Salas", 
+        "email": "trisha@trishasalas.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "260423489", 
+        "company": "Flyover", 
+        "location": "Tulsa, Ok", 
+        "name": "JP Dubois", 
+        "email": "jp@flyover.co"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "261067393", 
+        "company": "InterWorks, Inc.", 
+        "location": "Tulsa, OK", 
+        "name": "Darren Gibson", 
+        "email": "zarthross@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.7835194", 
+          "36.0565606"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "261067481", 
+        "company": "skillbuilder", 
+        "location": "broken arrow ok", 
+        "name": "selma hamlin", 
+        "email": "selmahamlin@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-73.95", 
+          "40.65"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "261095719", 
+        "company": "", 
+        "location": "Brooklyn, NY", 
+        "name": "Lara Swanson", 
+        "email": "swanson.lara@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-74.3625", 
+          "40.716111"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "261095721", 
+        "company": "", 
+        "location": "Summit, NJ", 
+        "name": "Shawn Hogan", 
+        "email": "pastorshawnhogan@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-89.4012302", 
+          "43.0730517"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "261119811", 
+        "company": "Mozilla", 
+        "location": "Madison, WI", 
+        "name": "David Walsh", 
+        "email": "dwalsh@mozilla.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.5164276", 
+          "35.4675602"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "261171979", 
+        "company": "GitHub", 
+        "location": "Oklahoma City, OK", 
+        "name": "Michael Gorsuch", 
+        "email": "michael.gorsuch@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.4780954", 
+          "35.6528323"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "261286581", 
+        "company": "iThemes.com", 
+        "location": "Edmond, OK", 
+        "name": "Chris Jean", 
+        "email": "chris@ithemes.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "261315817", 
+        "company": "Cubic", 
+        "location": "Tulsa, OK", 
+        "name": "Greg Tatum", 
+        "email": "greg@cubiccreative.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "261315819", 
+        "company": "Cubic", 
+        "location": "Tulsa, OK", 
+        "name": "Ryan Lewis", 
+        "email": "ryan@cubiccreative.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.8547119", 
+          "36.2695388"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "261323327", 
+        "company": "", 
+        "location": "Owasso,ok", 
+        "name": "brandon stubbs", 
+        "email": "irtcode@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "261444579", 
+        "company": "ConsumerAffairs", 
+        "location": "Tulsa, OK", 
+        "name": "Zac Carman", 
+        "email": "zac@consumeraffairs.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-92.0198427", 
+          "30.2240897"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "261473687", 
+        "company": "Adobe", 
+        "location": "Lafayette, LA", 
+        "name": "Raymond Camden", 
+        "email": "raymondcamden@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.5164276", 
+          "35.4675602"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "261552587", 
+        "company": "", 
+        "location": "Oklahoma City, Ok", 
+        "name": "Jesse Harlin", 
+        "email": "harlinjesse@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "261590117", 
+        "company": "SAPIEN", 
+        "location": "Tulsa, OK", 
+        "name": "cole Cunningham", 
+        "email": "cole@sapienbrands.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "261590119", 
+        "company": "SAPIEN", 
+        "location": "Tulsa, OK", 
+        "name": "Trevor Barrios", 
+        "email": "trevor@sapienbrands.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "261590121", 
+        "company": "SAPIEN", 
+        "location": "Tulsa, OK", 
+        "name": "Alex Horner", 
+        "email": "alex@sapienbrands.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-97.4394777", 
+          "35.2225668"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "262558811", 
+        "company": "CCEW, University of Oklahoma", 
+        "location": "Norman, OK", 
+        "name": "Philip Dow", 
+        "email": "phil@phildow.net"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-74.0776417", 
+          "40.7281575"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "262882743", 
+        "company": "10up", 
+        "location": "Jersey City, NJ", 
+        "name": "Helen Hou-Sandi", 
+        "email": "helen.y.hou@gmail.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "266016655", 
+        "company": "HCSC", 
+        "location": "Tulsa, OK", 
+        "name": "Rod Knowlton", 
+        "email": "rod@rodknowlton.com"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "eventbrite_id": "266022943", 
+        "company": "Isocentric Networks", 
+        "location": "Tulsa, OK", 
+        "name": "Scott Phillips", 
+        "email": "scott@isocentric.com"
+      }
     },
-    { "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : ["-95.904638","36.118914"]
-      },
-      "properties" :
-        { "name" : "Jeremy Satterfield",
-          "github" : "jsatt"
-        }
-    },
-    { "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : ["-95.95639","36.1539"]
-      },
-      "properties" :
-        { "name" : "Patrick Forringer",
-          "twitter" : "destos",
-          "github" : "destos",
-          "awesome":"still",
-          "web": "http://patrick.forringer.com"
-        }
-    },
-    { "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : ["-95.940565","36.032606"]
-      },
-      "properties" :
-        { "name" : "John Dungan",
-          "github" : "jdungan"
-        }
-    },
-    { "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : ["-96.685932","35.486413"]
-      },
-      "properties" :
-        { "name" : "Buddy Lindsey",
-          "github" : "buddylindsey",
-          "twitter": "buddylindsey",
-          "web": "http://buddylindsey.com"
-        }
-    },
-    { "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : ["-95.984770", "36.119598"]
-      },
-      "properties" :
-        { "name" : "Blaine Schmeisser",
-          "github" : "BlaineSch",
-          "twitter": "BlaineSch",
-          "web": "http://blainesch.com"
-        }
-    },
-    { "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : ["-95.992781", "36.156735"]
-      },
-      "properties" :
-        { "name" : "Josh Mize",
-          "github" : "jgmize",
-          "twitter": "jgmize",
-          "web": "http://mozilla.org"
-        }
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          "-95.992775", 
+          "36.1539816"
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "location": "Tulsa, OK", 
+        "name": "Edward Cho", 
+      }
     }
   ]
 }
