@@ -97,7 +97,7 @@ def row_to_record(row):
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [str(lon), str(lat)]
+            "coordinates" : [lon, lat]
         },
         "properties" :
             { "name" : full_name,
