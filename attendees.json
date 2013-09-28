@@ -139,17 +139,18 @@
       "geometry": {
         "type": "Point", 
         "coordinates": [
-          -95.992775, 
-          36.1539816
+          -95.94039,
+          36.11818
         ]
       }, 
       "type": "Feature", 
       "properties": {
         "eventbrite_id": "229503709", 
-        "company": "", 
+        "company": "Project Make It", 
         "location": "tulsa,ok", 
         "name": "blixa morgan", 
-        "email": "Blixa@projectmakeit.com"
+        "email": "Blixa@projectmakeit.com",
+        "coolest": true
       }
     }, 
     {
